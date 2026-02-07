@@ -1,0 +1,171 @@
+{
+  "mod_name": "Example Professions Pack",
+  "mod_id": "ExampleProfessionsPack",
+  "author": "PropModCreator",
+  "description": "A collection of example professions to demonstrate PropModCreator capabilities.",
+  "version": "1.0.0",
+  "professions": [
+    {
+      "name": "Survivalist",
+      "cost": 4,
+      "description": "An experienced outdoorsman skilled in hunting, trapping, and foraging.",
+      "skills": {
+        "Trapping": 3,
+        "Foraging": 2,
+        "Fishing": 2,
+        "Woodwork": 1
+      },
+      "traits": [
+        "Outdoorsman",
+        "Keen Hearing"
+      ],
+      "items": [
+        {
+          "type": "Base.HuntingKnife",
+          "count": 1
+        },
+        {
+          "type": "Base.Rope",
+          "count": 2
+        },
+        {
+          "type": "Base.WaterBottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Mechanic",
+      "cost": 6,
+      "description": "A skilled automotive technician with expertise in vehicle repair and maintenance.",
+      "skills": {
+        "Mechanics": 4,
+        "Metalworking": 2,
+        "Electricity": 1
+      },
+      "traits": [
+        "Handy"
+      ],
+      "items": [
+        {
+          "type": "Base.Wrench",
+          "count": 1
+        },
+        {
+          "type": "Base.Screwdriver",
+          "count": 1
+        },
+        {
+          "type": "Base.LugWrench",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Paramedic",
+      "cost": 8,
+      "description": "Emergency medical professional trained in advanced first aid and trauma care.",
+      "skills": {
+        "FirstAid": 5,
+        "Fitness": 2,
+        "Sprinting": 1
+      },
+      "traits": [
+        "FastHealer",
+        "Brave"
+      ],
+      "items": [
+        {
+          "type": "Base.FirstAidKit",
+          "count": 1
+        },
+        {
+          "type": "Base.Bandage",
+          "count": 10
+        },
+        {
+          "type": "Base.Pills",
+          "count": 5
+        },
+        {
+          "type": "Base.AlcoholWipes",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Chef",
+      "cost": 4,
+      "description": "Professional cook with culinary expertise and knowledge of ingredients.",
+      "skills": {
+        "Cooking": 5,
+        "Foraging": 1,
+        "Fishing": 1
+      },
+      "traits": [
+        "LightEater"
+      ],
+      "items": [
+        {
+          "type": "Base.FryingPan",
+          "count": 1
+        },
+        {
+          "type": "Base.KitchenKnife",
+          "count": 1
+        },
+        {
+          "type": "Base.Pot",
+          "count": 1
+        },
+        {
+          "type": "Base.Salt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Athlete",
+      "cost": 5,
+      "description": "Physically fit individual with superior strength and endurance.",
+      "skills": {
+        "Fitness": 3,
+        "Strength": 3,
+        "Sprinting": 2
+      },
+      "traits": [
+        "Athletic",
+        "Strong"
+      ],
+      "items": [
+        {
+          "type": "Base.WaterBottle",
+          "count": 2
+        },
+        {
+          "type": "Base.Bandage",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "name": "QuickLearner",
+      "cost": -6,
+      "description": "Learns skills 25% faster than normal."
+    },
+    {
+      "name": "NightVision",
+      "cost": -4,
+      "description": "Can see better in low-light conditions."
+    },
+    {
+      "name": "Unlucky",
+      "cost": 4,
+      "description": "Bad things tend to happen more often."
+    }
+  ],
+  "items": [],
+  "recipes": []
+}
