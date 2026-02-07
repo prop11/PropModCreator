@@ -423,14 +423,31 @@ class PropModCreator:
             self.status_var.set("Error generating mod")
             
     def show_about(self):
-        
-        about_text = 
+        about_text = """PropModCreator v1.0.0
+
+A GUI tool for creating Project Zomboid mods
+without coding knowledge.
+
+Uses PropFramework for mod functionality.
+
+Created for the PZ modding community."""
         
         messagebox.showinfo("About PropModCreator", about_text)
         
     def show_docs(self):
-        
-        docs_text = 
+        docs_text = """PropModCreator Documentation
+
+1. Fill in Mod Info tab with your mod details
+2. Add Professions with skills, traits, and items
+3. Add Traits with costs and descriptions
+4. Generate Mod to create all files
+5. Copy generated folder to Zomboid/mods/
+
+Requirements:
+- PropFramework must be installed
+- Project Zomboid Build 42
+
+For more help, visit the GitHub repository."""
         
         messagebox.showinfo("Documentation", docs_text)
 
@@ -810,7 +827,12 @@ class ModGenerator:
                 content += f"**Cost:** {trait['cost']} points\n\n"
                 content += f"{trait['description']}\n\n"
                 
-        content += 
+        content += """## Credits
+Generated with PropModCreator
+
+## License
+This mod is free to use and modify.
+"""
         
         with open(mod_path / "README.md", 'w') as f:
             f.write(content)

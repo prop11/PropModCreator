@@ -36,7 +36,7 @@ PropModCreator lets you create Project Zomboid profession and trait mods through
 
 2. Download PropModCreator
    ```bash
-   git clone https://github.com/yourusername/PropModCreator.git
+   git clone https://github.com/prop11/propFramework.git
    cd PropModCreator
    ```
 
@@ -61,7 +61,7 @@ PropModCreator lets you create Project Zomboid profession and trait mods through
 
 2. Download and Install
    ```bash
-   git clone https://github.com/yourusername/PropModCreator.git
+   git clone https://github.com/prop11/propFramework.git
    cd PropModCreator
    pip3 install -r requirements.txt
    python3 prop_mod_creator.py
@@ -77,7 +77,7 @@ PropModCreator lets you create Project Zomboid profession and trait mods through
 
 2. Download and Install
    ```bash
-   git clone https://github.com/yourusername/PropModCreator.git
+   git clone https://github.com/prop11/propFramework.git
    cd PropModCreator
    pip3 install -r requirements.txt
    python3 prop_mod_creator.py
